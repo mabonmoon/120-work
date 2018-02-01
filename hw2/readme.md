@@ -7,4 +7,4 @@ Did you have any problems or issues? How did you solve these? Did you post about
 Is there anything in particular you learned that you would like to discuss further?
 What issues did you help your fellow classmates out with this past homework cycle?
 hkjhkajdah
-![Image of my editor](https://imgur.com/a/Pg10Z)
+![Image of my editor](Capture.PNG)
