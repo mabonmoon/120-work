@@ -5,7 +5,7 @@
 This past homework cycle was an *intense* week of many new synapses forming in my brain. I stuck to following all recommendations provided by the instructor as both those recommended options and others were all equally unfamiliar territory to me.
  * Atom
  * GitHub Desktop
- * Git Bash
+ * Git Bash 
 
 # 2.
 ### What steps did you take to complete the assignment?
