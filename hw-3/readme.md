@@ -13,4 +13,4 @@ This week again was slowly going through the module sentence by sentence. It’s
 
 Looking forward to next week!
 
-![first sketch](imgs/hw-3/first_sketch.png)
+![first sketch](imgs/hw-3/first_sketch.PNG)
