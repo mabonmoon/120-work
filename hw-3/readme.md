@@ -1,3 +1,11 @@
-# Empty p5 sketch.
+Kimberly Pierson,
 
-Please replace contents of this file with appropriate readme information after finishing your p5 sketch.
+["Hello World!" Sketch](https://mabonmoon.github.io/120-work/hw-3/)
+
+# HW-3 Response
+
+## Final Sketch
+
+This is what
+
+![info on image](imgs/hw-3_image.png)
