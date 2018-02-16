@@ -4,25 +4,25 @@ function setup () {
   createCanvas ( 600, 800 );
 }
 
+//conjuring the draw function!
+
 function draw() {
 
 //backgroung color
-  background('rgb(240, 237, 229)');
+  background('rgba(203, 202, 192, 0.77)');
 
-/*MAIN SANDBOX*/
 
   push();
 
 //face shape
-//nofill for transparency
-noFill();
+fill('white');
+noStroke();
 arc( 400,  215,  271,  288,  radians( 90 ), radians( 270 ));
 
 
 //chin
 arc(  360,  340,  100,  100,  QUARTER_PI,  QUARTER_PI );
-stroke( 'rgb( 114,  111,  164 )' );
-strokeWeight( 1 );
+pop();
 
 //nose
 fill( 'rgb( 179,  208,  223 )' );
@@ -36,7 +36,7 @@ triangle( 267, 330, 307, 343, 282, 344 );
 triangle( 280, 360, 283, 345, 310, 348 );
 
 //cheek
-fill( 'rgb( 217,  223,  224 )' );
+fill( 'rgb( 179,  208,  223 )' );
 triangle( 297, 245, 290, 302, 396, 302 );
 triangle( 263, 225, 297, 245, 290, 302 );
 triangle( 396, 304, 291, 306, 310, 345 );
@@ -46,23 +46,29 @@ triangle( 350, 390, 310, 350, 375, 310 );
 //eye
 fill( 'white' );
 triangle( 297, 245, 290, 220, 340, 225 );
-line(  290, 225, 340, 225  );
-line(  297, 250, 340, 225  );
 fill( 'black' );
 ellipse( 300, 235, 15, 15 );
-fill('white')
-ellipse( 300, 235, 1, 1);
+
+//eyelashes
+line(  290, 225, 340, 225  );
+line(  290, 220, 340, 225  );
+line(  290, 215, 340, 225  );
+line(  290, 210, 340, 225  );
+line(  297, 250, 337, 225  );
+line(  297, 255, 337, 225  );
+line(  297, 260, 337, 225  );
+
+
 
 //body
 fill('black')
 triangle( 400, 400, 400, 800, 550, 800 );
 arc(  475,  515,  200,  188,  radians( 90 ), radians( 270 ) );
 
-
 //hair
 
 fill( 'rgb( 103,  106,  113 )');
-triangle(  250,  100,  445,  9,  425,  305  ) ;
+triangle(  250,  100,  445,  9,  425,  305  );
 triangle(  445,  9,  425,  305,  550,  200  );
 triangle(  550,  200,  500,  350,  550,  750  );
 triangle(  425,  305,  550,  200,  500,  750  );
@@ -75,7 +81,7 @@ triangle(  400,  275,  400,  500,  425,  700  );
 
 
 //horn **THIS TOOK FOREVER PLEASE OH PLEASE HELP WITH A SHORTCUT FOR THIS KIND  OF A THING! AHHH**
-fill( 'blue' );
+fill( 'white' );
 
 ellipse( 440, 180, 100, 100 );
 ellipse( 441, 181, 100, 100 );
