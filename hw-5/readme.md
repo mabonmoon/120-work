@@ -11,7 +11,7 @@ I was really excited at making a shape move across a screen this week though. Ba
 What a week.
 
 hw-4 'before' code
-[before](insanity.PNG)
+![before](insanity.PNG)
 
 hw-4 'after' code.
-[after](lessinsane.PNG)
+![after](lessinsane.PNG)
