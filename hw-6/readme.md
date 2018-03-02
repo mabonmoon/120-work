@@ -1,5 +1,6 @@
 
-##week 6
+## Kimberly Pierson
+## week 6
 
 
 
