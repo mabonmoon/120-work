@@ -1,6 +1,6 @@
-Your Name, Your Section Number
+Kimberly Pierson, Group C
 
-[Live Sketch Link](Your Live Link)
+[Live Sketch Link](https://mabonmoon.github.io/120-work/hw-7)
 
 
 # HW 7 | Describe then Alter the Bouncing Ball
@@ -8,8 +8,7 @@ Your Name, Your Section Number
 ## Description of What the Original Code is Doing
 
 First we create a global object and initialize its elements.
-Then we setting up our canvas + direct its background color.
-Then we call the draw function.
+Then we setting up our canvas + direct its background color, and call the draw function.
 
 Delta is the direction of change, and scale is the amount of change. If these parameters change then x and y positions will be affected.
 
