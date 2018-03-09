@@ -1,6 +1,6 @@
 Kimberly Pierson, Group C
 
-[Live Sketch Link](https://mabonmoon.github.io/120-work/hw-7)
+[Live Sketch Link](https://mabonmoon.github.io/120-work/HW-7)
 
 
 # HW 7 | Describe then Alter the Bouncing Ball
