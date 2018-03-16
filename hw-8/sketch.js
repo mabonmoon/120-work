@@ -1,11 +1,5 @@
 
-//creating global variables
-var circle = {
-
-  diameter: 100,
-
-}
-
+//creating global variable
 
 let ruffle = {};
 ruffle.x= 0 ;
@@ -16,12 +10,12 @@ function setup () {
   createCanvas ( 1000, 1000 );
 }
 
-//calling draw
+//calling draw fucntion
 function draw() {
   background(30);
 
 
-//windy random lines of chaos
+//windy random lines of chaos for my ghost lady
 var vx=ruffle.x;
 //color of lines
   stroke(240, 233, 233,);
@@ -41,7 +35,7 @@ triangle(650,500,460,78,520,40)
 pop();
 
 
-  //face
+  //face shape
   push();
   fill(190)
 ellipse(512, 170, 175,300);
@@ -63,21 +57,18 @@ while(z<170){
   triangle( 550, z, 530, 170, 570, 170);
   z = z+5;
 }
-
-
 pop();
 
 //eye brows
 push();
 fill(175);
-stroke(0);
 for (let i = 440; i < 500; i++) {
 
       triangle(i, 120, i, 120, 430, 115);
       i=i+1;
 
   }
-
+//this eyebrow side isn't slanting exactly how I want it, but her bangs are coming it up anyways, hrmph
   for (let i = 520; i < 580; i++) {
 
         triangle(i, 120, i, 120, 510, 115);
@@ -87,19 +78,17 @@ for (let i = 440; i < 500; i++) {
 
 pop();
 
-//hair in front of face (had to keep these out of order so that they would overlap correctly)
+//hair in front of face (did separate from previous hair due to order of overlap)
 push();
 fill(200);
-triangle(435,60,460,78,400,500)
-
-
-triangle(500,0,600,30,650,500)
-triangle(435,60,500,0,630,200)
+triangle(435,60,460,78,400,500);
+triangle(500,0,600,30,650,500);
+triangle(435,60,500,0,630,200);
 pop();
 
 
 
-  //nose
+  //nose shape
   push();
   stroke(219, 200, 134);
     let y = 170;
@@ -113,13 +102,12 @@ pop();
 //lips
 push();
 fill('pink');
-triangle(480,270,540,270,510,280)
+triangle(480,270,540,270,510,280);
 
-triangle(480,270,510,270,500,260)
+triangle(480,270,510,270,500,260);
 
-triangle(510,270,540,270,520,260)
+triangle(510,270,540,270,520,260);
 pop();
-
 
 
 }
