@@ -1,7 +1,9 @@
 
+//creating array
 
-var words = ["alien", "icecream", "grows", "as" , "you", "eat", "it"];
+//var words = ["sun", "mercury", "venus","earth","mars","jupiter","saturn","uranus","neptune"];
 var index = 0;
+
 //creating an empty array
 var planets = [];
 //creating my canvas
@@ -20,7 +22,7 @@ background(0);
 
 
 //displaying my word array randomizing where they appear
-fill(255);
+/*fill(255);
 textSize(50);
 text(words[index], random(width), random(height));
 index=index+1;
@@ -28,7 +30,7 @@ index=index+1;
 if (index==words.length){
 
 index=0;
-}
+}*/
 
 
 
