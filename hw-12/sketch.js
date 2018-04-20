@@ -3,7 +3,7 @@
 
 var timer;
 var timerSet = false;
-var words = ["Hungry Ladybug Game \n eat 10 bugs in 30 seconds"]
+var words = ["Hungry Ladybug Game! \n Use your arrows to eat 10 bugs in 30 seconds"]
 var hungry;
 var sz = 50;
 var food;
