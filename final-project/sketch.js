@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 //empty arrays for my objects
@@ -86,4 +87,20 @@ function mousePressed() {
   spirits.push(new Spirit(mouseX, mouseY));
   //spirit sound when mouse pressed
   freethespirit.play();
+=======
+var birdlady;  // Declare variable 'img'.
+
+
+function preload(){
+  birdlady = loadImage ("./images/birdlady.png");
+}
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+backgroung(255);
+imageMode(CENTER);
+image(birdlady,width/2, height/2, 100, 100);
+>>>>>>> afe7dc918ad322e04ef7c442374d4990c8e859ae
 }
